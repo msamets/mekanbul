@@ -9,7 +9,7 @@ const mekanBilgisi = function (req, res) {
 }
 
 const yorumEkle = function (req, res) {
-    res.render('yorumEkle', { 'title': 'Yorum ekle' });
+    res.render('yorumEkle', { 'title': 'Yorum Sayfası' });
 }
 
 module.exports = {
